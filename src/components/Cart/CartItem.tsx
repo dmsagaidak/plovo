@@ -6,7 +6,6 @@ interface Props {
 }
 
 const CartItem: React.FC<Props> = ({cartDish}) => {
-
   const price = cartDish.amount * cartDish.dish.price;
 
   return (
